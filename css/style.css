@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    vertical-align: middle;
+}
+.container{
+    width: 978px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+@font-face {
+    src: url(../myriad-pro/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: 'myriad-semi';
+}
+@font-face {
+    src: url(../myriad-pro/MYRIADPRO-REGULAR.OTF);
+    font-family: 'myriad-regular';
+}
+/* ==========================================================================
+                     Common css end
+============================================================================*/
+/* ==========================================================================
+                    Header part starts
+============================================================================*/
+#header_part {
+    padding: 13px 0 17px;
+    background:#fff;
+}
+.logo {
+    width: 83px;
+    float: left;
+}
+
+.headline {
+    width: 665px;
+    float: left;
+}
+.headline h2 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family:'Open Sans', sans-serif;
+    color: #3ca2a2;
+    line-height: 88px;
+    padding-left: 12px;
+}
+.number {
+    width: 222px;
+    float: left;
+}
+.number p {
+    font-weight: 400;
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+    color: #b76262;
+    line-height: 88px;
+    text-align: right;
+}
+/* ==========================================================================
+                    Header part end
+============================================================================*/
+/* ==========================================================================
+                    Menu part starts
+============================================================================*/
+#menu_part {
+   
+background: #ae1010;
+background: -moz-linear-gradient(left,  #ae1010 0%, #cf0511 100%);
+background: -webkit-linear-gradient(left,  #ae1010 0%,#cf0511 100%); 
+background: linear-gradient(to right,  #ae1010 0%,#cf0511 100%);
+height: 50px;
+}
+.main_menu {
+    width: 860px;
+    float: left;
+}
+.main_menu ul {
+    display: flex;
+}
+.main_menu ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 50px;
+    padding: 0 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.main_menu ul li a:hover {
+    background: #f18d26;
+}
+
+
+.menu_social {
+    width:110px;
+    float: left;
+}
+.menu_social a {
+   width: 26px;
+   height: 26px;
+   line-height: 26px;
+   margin-top: 11px;
+   background: #fff;
+   color:#ae1010;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   text-align: center;
+   transition:all linear .3s;
+   -webkit-transition:all linear .3s;
+   -moz-transition:all linear .3s;
+   -ms-transition:all linear .3s;
+   -o-transition:all linear .3s;
+}
+.menu_social a:hover {
+    background:#f18d26;
+    color: #fff;
+}
+/* ==========================================================================
+                    Menu part end
+============================================================================*/
+/* ==========================================================================
+                    Banner part starts
+============================================================================*/
+#Banner_part {
+    background:url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding: 75px 0;
+}
+.banner_text {
+    width:440px;
+    float: left;
+}
+.banner_text h1{
+    color: #215a6d;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner_text h1 span{
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+    font-size: 48px;
+}
+.banner_text p {
+    color: #215a6d;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	padding-right: 150px;
+}
+.banner_text a {
+    font-weight: 600;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    background: #92c7a3;
+    color: #fff;
+    padding: 15px 25px;
+    margin-top:38px;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.banner_text a:hover {
+    background:#f18d26;
+    color: #fff;
+}
+.banner_cont {
+    position: relative;
+}
+.banner_img {
+    width: 593px;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+
+}
+.banner_img img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ==========================================================================
+                    Banner part end
+============================================================================*/
+/* ==========================================================================
+                    Banner part starts
+============================================================================*/
+#service_part {
+    padding: 70px 0;
+    text-align: center;
+}
+.service_col {
+    width: 30.9%;
+    float: left;
+    margin-right: 35px;
+}
+
+
+
+.service_col:nth-child(3) {
+    margin-right: 0;
+}
+.service_col h2 {
+    font-weight: 600;
+    font-size: 24px;
+    font-family:  'Open Sans', sans-serif;
+    color: #3ca2a2;
+    margin-bottom:15px;
+
+}
+.service_col p {
+    font-weight: 400;
+    font-size: 13px;
+    font-family:  'Open Sans', sans-serif;
+    color: #215a6d;
+    line-height: 20.4px;
+    margin-top:17px;
+}
+.service_col a {
+    font-weight: 400;
+    font-size: 14px;
+    font-family:  'Open Sans', sans-serif;
+    color: #3ca2a2;
+   
+    margin-top:32px;
+}
+.service_col  a i {
+    color: #c70811;
+    
+    margin-right: 7px;
+}
+/* ==========================================================================
+                    Banner part end
+============================================================================*/
+/* ==========================================================================
+                   Notice part starts
+============================================================================*/
+#notice_part {
+    padding: 30px 0;
+    background:#92c7a3;
+}
+.notice_col {
+    width: 48.30%;
+    float: left;
+    margin-right: 30px;
+}
+.notice_col:nth-child(2) {
+    margin-right: 0;
+}
+.notice_head h2 {
+    position: relative;
+}
+.notice_head h2::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+   
+}
+.notice_head h2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    width:53px;
+    height: 2px;
+    background:red;
+   
+    z-index: 1;
+}
+.notice_head h2 {
+    font-weight: 600;
+    font-size: 28.51px;
+    font-family:'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-bottom: 10px;
+   
+}
+.notice_iner ul li {
+    line-height: 42px;
+    padding-left: 17px;
+    border-bottom: 1px solid #3ca2a2 ;
+    background:#fff;
+   
+}
+.notice_iner:last-child {
+    border-bottom: 0;
+}
+.notice_iner {
+    padding-top: 33px;
+}
+.notice_iner ul li i {
+    height: 43px;
+    line-height: 43px;
+    font-size: 20px;
+    background:#c70811;
+    color: #fff;
+    padding: 0 18px;
+    float:right;
+}
+.notice_iner ul li {
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Open Sans', sans-serif;
+    color: #3ca2a2;
+    line-height: 42px;
+}
+.notice_iner a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+    color:#cf0511;
+}
+.notice_iner a i {
+    color: #c70811;
+    margin-top: 24px;
+    margin-right: 7px;
+}
+/* ==========================================================================
+                   Notice part end
+============================================================================*/
+/* ==========================================================================
+                   Gallery part starts
+============================================================================*/
+#Gellary_part {
+    padding:50px 0;
+    background: #fff;
+}
+.Gall_col {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.Gall_col:nth-child(3) {
+    margin-right: 0;
+}
+.Gall_iner h4 {
+    margin-top: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    color: #3ca2a2;
+}
+.Gall_iner p {
+    font-weight: 400;
+    font-size: 13px;
+    font-family:'Open Sans', sans-serif;
+    color: #215a6d;
+    line-height: 20.4px;
+}
+.Gall_col span h4 {
+    margin-top: 63px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    color: #3ca2a2;
+}
+.Gall_iner ul  {
+    margin-top: 44px;
+    margin-bottom: 57px;
+   
+}
+.Gall_iner ul li a{
+    
+    font-weight: 400;
+    font-size: 13px;
+    font-family:'Open Sans', sans-serif;
+    color: #215a6d;
+    line-height: 29px;
+
+    
+}
+.Gall_iner ul li i {
+    color: #c70811;
+    
+    margin-right: 7px;
+}
+.Gall_iner a i {
+    color: #c70811;
+    margin-top: 42px;
+    
+    margin-right: 7px;
+}
+.Gall_iner a {
+    color:#3ca2a2 ;
+  
+}
+.Gall_inerr ul li {
+    width: 39%;
+    float: left;
+    border: 3px solid #dfece6;
+    margin-right: 30px;
+    margin-bottom: 42px;
+    margin-top: 42px;
+}
+.Gall_inerr ul li:nth-child(2),
+.Gall_inerr ul li:nth-child(4){
+
+   
+    margin-right:0;
+}
+.Gall_inerr ul li:nth-child(3),
+.Gall_inerr ul li:nth-child(4){
+    margin-top: 0;
+}
+.Gall_inerr ul li img {
+    width: 100%;
+    max-width: 100%;
+}
+.Gall_inerr a  {
+    color:#3ca2a2 ;
+}
+.Gall_inerr a i {
+    color: #c70811;
+    margin-top: 42px;
+    
+    margin-right: 7px;
+}
+/* ==========================================================================
+                   Gellary part end
+============================================================================*/
+/* ==========================================================================
+                   Doctors part starts
+============================================================================*/
+#doctors_part {
+    padding: 50px 0;
+}
+.doctors_col {
+    width:100%;
+    float: left;
+   }
+   .Doctors_iner {
+       margin-top: 30px;
+       float: left;
+       margin-right: 30px;
+   }
+   .Doctors_iner:last-child {
+       margin-right: 0;
+   }
+   .Doctors_iner h3 {
+       margin-top: 16px;
+       font-weight: 600;
+       font-size: 18px;
+       font-family: 'Open Sans', sans-serif;
+       color:#3ca2a2;
+   }
+   .Doctors_iner h4 {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#878787;
+}
+.Doctors_iner h5 {
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#cf0511;
+}
+/* ==========================================================================
+                   Doctors part end
+============================================================================*/
+/* ==========================================================================
+                 Footer top part starts
+============================================================================*/
+#last_part {
+    padding: 30px 0;
+    background: #000;
+}
+.logo_part {
+    width:83px;
+    float: left;
+}
+
+.headline_part {
+    width:887px;
+    float: left;
+}
+.headline_part h2 {
+   margin-left: 19px;
+   font-size: 25.76px;
+   font-family: 'myriad-semi' ;
+   color: #3ca2a2;
+   line-height: 88px;
+
+}
+.footer_menu {
+    width: 25%;
+    float: left;
+}
+.footer_menu h2  {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color:#3ca2a2;
+    margin-top: 50px;
+}
+.footer_menu ul li a {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color:#c6ded9;
+    line-height: 28px;
+}
+.footer_menu ul li i {
+    color: #c70811;
+    margin-right: 7px;
+}
+/* ==========================================================================
+                   Footer Top part end
+============================================================================*/
+/* ==========================================================================
+                   Footer bottom part starts
+============================================================================*/
+#footer_bottom {
+   padding: 22px;
+    background:red;
+    text-align: center;
+}
+#footer_bottom p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family:'myriad-regular';
+    color: #c6ded9;
+
+}
+/* ==========================================================================
+                   Footer bottom  part end
+============================================================================*/
+
+
